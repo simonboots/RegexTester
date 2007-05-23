@@ -1,0 +1,19 @@
+{
+    IBClasses = (
+        {CLASS = ComboStrings; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {clearRegularExpressions = id; clearTestStrings = id; }; 
+            CLASS = MyController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                "_currenttrafficlight" = id; 
+                "_savedtrafficlight" = id; 
+                "_validationInformation" = id; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = TrafficLightIndicator; LANGUAGE = ObjC; SUPERCLASS = NSView; }
+    ); 
+    IBVersion = 1; 
+}
